@@ -1,2 +1,2 @@
 # daymet
-Repo for code to process DAYMET data
+Repo for code to download grided DAYMET data
