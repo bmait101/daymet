@@ -1,11 +1,13 @@
+# -------------------------------------------------------#
 # code to download, mosaic, and organize DAYMET data
-# by Jerod Merkle; updated by Bryan Maitland
-# 2021-08-25
+# adapted from Jerod Merkle (U Wyoming)
+# --------------------------------------------------------#
 
 # NOTE: the files are saved as .grd files (which is R’s native format). 
 # You’d just have to switch the write raster code to save as .tif files instead. 
 
-#make sure you have these packages installed and loaded
+
+# libraries ----------------------- #
 library(ncdf4)
 library(daymetr)
 library(raster)
